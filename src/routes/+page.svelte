@@ -29,7 +29,7 @@
 >
   <input
     type="text"
-    placeholder="Search for an OBEC..."
+    placeholder="Zadejte název obce"
     class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
     bind:value={searchTerm}
     on:focus={() => searchTerm.length >= 2 && (showSuggestions = true)}
